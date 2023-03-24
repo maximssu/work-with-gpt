@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/adapters": ["adapters/index"],
+      "@/adapters/*": ["adapters/*"],
+      "@/assets": ["assets/index"],
+      "@/assets/*": ["assets/*"],
+      "@/blocks": ["components/blocks/index"],
+      "@/blocks/*": ["components/blocks/*"],
+      "@/collections": ["components/collections/index"],
+      "@/collections/*": ["components/collections/*"],
+      "@/common": ["components/common/index"],
+      "@/common/*": ["components/common/*"],
+      "@/elements": ["components/elements/index"],
+      "@/elements/*": ["components/elements/*"],
+      "@/layouts": ["components/layouts/index"],
+      "@/layouts/*": ["components/layouts/*"],
+      "@/lib": ["lib/index"],
+      "@/lib/*": ["lib/*"],
+      "@/modules": ["components/modules/index"],
+      "@/modules/*": ["components/modules/*"],
+      "@/providers": ["providers/index"],
+      "@/providers/*": ["providers/*"],
+      "@/services": ["services/index"],
+      "@/services/*": ["services/*"],
+      "@/store": ["store/store"],
+      "@/store/*": ["store/*"],
+      "@/styles/*": ["assets/styles/*"],
+      "@/units": ["components/units/index"],
+      "@/units/*": ["components/units/*"],
+      "@/utils": ["utils/index"],
+      "@/utils/*": ["utils/*"]
+    }
+  }
+}
